@@ -8,7 +8,7 @@ function getRandomInt(min, max){
 }
 function rando1(){
     let map = Math.floor(Math.random() * arr1.length);
-    d1.innerHTML = "Кэп красной команды - " + getRandomInt(1,9) + "," + " Кэп синий команды - " + getRandomInt(1, 9) + "," + " Карта: " + (arr1[map]);
+    d1.innerHTML = "Капитан красной команды - " + getRandomInt(1,9) + "," + " Капитан синий команды - " + getRandomInt(1, 9) + "," + " Карта: " + (arr1[map]);
 }
 b1.onclick = rando1;
 
